@@ -44,3 +44,14 @@ do
    *) echo "R.T.F.M."; ;;
  esac
 done
+
+
+
+function Sum (){
+ local PARAM_1="$1";
+ local PARAM_2="$2";
+
+ echo -e "PRAM_1 = ${PARAM_1}\nPARAM_2 = ${PARAM_2}";
+}
+
+Sum "5" "10"
